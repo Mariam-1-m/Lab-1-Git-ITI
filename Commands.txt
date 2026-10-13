@@ -30,4 +30,6 @@ git commit -m 'edit 3'
 git log
 git reset Head~1
 git restore index.html
+git add .
+git commit -m 'edit 4'
 git push
