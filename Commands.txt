@@ -1,0 +1,20 @@
+1-
+git config --global init DefaultBranch main
+git config --global user.name 'Mariam Abdelrahman'
+git config --global user.email 'mariumaabdelrahman7@gmail.com'
+git config --global core.editor "code --wait"
+
+git  init
+git add index.html
+git add .
+git commit -m 'first commit'
+
+ssh-keygen -t ed25519 -C 'mariumaabdelrahman7@gmail.com'
+
+C:\Users\HP/.ssh/id_ed25519 --> key path
+
+
+///////////////////////////////////////////////////////////
+git remote add origin git@github.com:Mariam-1-m/Lab-1-Git-ITI.git
+git branch -M main
+git push -u origin main
