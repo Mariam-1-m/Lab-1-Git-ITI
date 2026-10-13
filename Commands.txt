@@ -18,3 +18,16 @@ C:\Users\HP/.ssh/id_ed25519 --> key path
 git remote add origin git@github.com:Mariam-1-m/Lab-1-Git-ITI.git
 git branch -M main
 git push -u origin main
+
+git add .
+git commit -m 'edit 1'
+
+git add .
+git commit --amend -m 'edit 2'
+
+git add .
+git commit -m 'edit 3'
+git log
+git reset Head~1
+git restore index.html
+git push
